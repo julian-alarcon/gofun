@@ -78,8 +78,8 @@ Learning the principles of golang
 * concurrency is execution multiple tasks but only 1 running
 * goroutine encapsulate the different tasks
 * anonymous functions (no name) inside other function and setting `()` at the end
-* gorutine defined with reserved word `go`
+* goroutine defined with reserved word `go`
 * usage of `sync` module and reserved functions `.Add(#OfGoroutines)`, `.Done()`, `.Wait()`
 * channels are used to communication between go routines
-  * unbuffured: `myChannel := make(chan int)`
-  * buffured: `myChannel := make(chan int, 5)`, just setting the size will create a buffered channel, in this case able to storage 5 integers
+  * unbuffered: `myChannel := make(chan int)`
+  * buffered: `myChannel := make(chan int, 5)`, just setting the size will create a buffered channel, in this case able to storage 5 integers
